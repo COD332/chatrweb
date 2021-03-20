@@ -1,0 +1,198 @@
+/*
+##################################
+
+	COLOR STYLES d84848
+	
+##################################
+*/
+
+body{
+	color:#2e3235;
+	background:#fff;
+}
+.body-wrapper{ background:#fff; }
+
+/*------------------------------------------------------------------*/ 
+/*	1) HEADER
+/*------------------------------------------------------------------*/
+.headermask{
+	background:rgba(0,0,0,0.777);
+}
+
+/*------------------------------------------------------------------*/ 
+/*	2) Nav
+/*------------------------------------------------------------------*/
+#nav{
+	background: #fff;
+	opacity:1;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.11);
+	
+}
+#nav ul.sf-menu li a.scroll{
+	color:#2e3235;
+}
+#nav ul.sf-menu li a.scroll:hover{
+	color:#d84848;
+	background:none;
+}
+#nav ul.sf-menu > li.sfHover ul li a{
+	color:#2e3235;
+}
+#nav ul.sf-menu > li.sfHover ul li a:hover{
+	color:#d84848;
+}
+
+#nav ul li li a:hover, .sf-menu li li.sfHover>a{
+	background:none;
+	color:#d84848;
+}
+#nav ul ul li a{
+	color:#2e3235;
+}
+.sf-menu li li {
+	background:	#fcfcfc;
+	opacity:0.95;
+	margin-bottom:0;
+}
+.sf-menu li li li {
+	background:	#fcfcfc;
+	opacity:0.95;
+}
+/******** Mobile Menu ********/
+.nav-toggle a{
+	background-color:#34495e;
+}
+.mobile-menu ul li a{
+	color:#2e3235;
+}
+.mobile-menu ul li a:hover{
+	color:#d84848;
+}
+
+
+/*------------------------------------------------------------------*/ 
+/*	02) SERVICES
+/*------------------------------------------------------------------*/
+#service{
+	background:#fff;
+}
+.service-block{
+	background:#fafafa;
+}
+/******** Hi Icon ********/
+.hi-icon {
+	color: #d84848;
+}
+.hi-icon-effect-1 .hi-icon {
+	background: rgba(255,255,255,1);
+}
+.hi-icon-effect-1 .hi-icon:after {
+	box-shadow: 0 0 0 5px #fff;
+}
+.no-touch .hi-icon-wrap:hover .hi-icon-effect-1a .hi-icon {
+	background: #fff;
+	color: #2e3235;
+}
+.hi-icon-effect-2 .hi-icon {
+	color:#fff;
+	background:none;
+	box-shadow: 0 0 0 3px #2e3235;
+}
+.hi-icon-effect-2 .hi-icon:after {
+	background: #2e3235;
+}
+.no-touch .hi-icon-wrap:hover .hi-icon-effect-2a .hi-icon {
+	color: #fff;
+}
+
+/*==================================================================*/ 
+/*	03) PORTFOLIO
+/*==================================================================*/
+section#portfolio{
+	background:url(../img/background.png) repeat;
+}
+
+/*==================================================================*/ 
+/*	03) TEAM
+/*==================================================================*/
+#team{
+	background:url(../img/background.png) repeat;
+}
+
+/*==================================================================*/ 
+/*	03) BLOG
+/*==================================================================*/
+#blog-wrap{
+	background:url(../img/background.png) repeat;
+}
+
+
+/*------------------------------------------------------------------*/ 
+/*	11) FUN FACT
+/*------------------------------------------------------------------*/
+.customer i{
+	background:#fff;
+}
+.customer i{
+	color:#d84848;
+}
+.percentage-2 h1{
+	color:#2e3235;
+}
+
+/*------------------------------------------------------------------*/ 
+/*	16) CONTACT
+/*------------------------------------------------------------------*/
+.form2 .btn{
+	background:none;
+	color:#d84848;
+}
+.form2 .btn:hover{
+	background:#d84848;
+	color:#fff;
+}
+.input input{
+	background:none;
+	color:#2e3235;
+}
+.input-holder textarea{
+	background:none;
+	color:#2e3235;
+}
+
+.form3 .btn{
+	background:none;
+	color:#d84848;
+}
+.form3 .btn:hover{
+	background:#d84848;
+	color:#fff;
+}
+.input1 input{
+	background:none;
+	color:#2e3235;
+}
+.input-holder1 textarea{
+	background:none;
+	color:#2e3235;
+}
+
+
+
+
+
+
+
+
+
+
+h1, h2, h3, h4, h5, h6					{ color:#2e3235; }
+span									{ color:#2e3235; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, a	{ color:#2e3235; }
+a:hover									{ color:#2e3235; }
+p										{ color:#2e3235; opacity:0.8; }
+.button, input[type="submit"], button	{  }
+blockquote								{ color:#fff; }
+
+::-moz-selection 						{ background: #e4593a; color: #fff; text-shadow: none; opacity:1; }
+.::selection 							{ background: #e4593a; color: #fff; text-shadow: none; opacity:1; }
